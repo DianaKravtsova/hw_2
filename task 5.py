@@ -52,7 +52,8 @@ def out(num):
 
     return number(r) + rubli(r) + number(c) + cent(c)
 
-a = input("Введите число: ")
+
+a = input("Введите число(дробное число вводится используя запятую): ")
 res = out(a)
 print("Результат:" + res)
 
